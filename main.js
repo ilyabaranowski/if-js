@@ -41,7 +41,7 @@ for (i = 0; i < arr3.length; i++) {
 
 //lesson-3--1
 function palindrome(word) {
-    let arr = word.split('').reverse().join('');
+    const string = word.split('').reverse().join('');
     if (word === arr) {
         return 'true';
     }
