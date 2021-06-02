@@ -38,3 +38,59 @@ for (i = 0; i < arr3.length; i++) {
         console.log(arr3[i])
     }
 }
+
+//lesson-3--1
+function palindrome(word) {
+    const string = word.split('').reverse().join('');
+    if (word === arr) {
+        return 'true';
+    }
+    else {
+        return 'false';
+    }
+}
+console.log(palindrome('Ilya'));
+
+//3--2
+function min(a, b) {
+    if (a < b) {
+        return a;
+    }
+    else {
+        return b;
+    }
+}
+console.log(min(13, 17));
+
+function min(a, b) {
+    return a < b ? a : b;
+}
+console.log(min(545, 78));
+
+function max(a, y) {
+    if (a > y) {
+        return a;
+    }
+    else {
+        return y;
+    }
+}
+console.log(max(54, 22));
+
+function max(a, y) {
+    return a > y ? a : y;
+}
+console.log(max(1, 13));
+
+//3--3
+const arr4 = [10, 34, 40, 77, 99, 20, 66, 68, 8, 0]
+const changeZero = (arr4) => {
+    for (i = 0; i < arr4.length; i++) {
+        let strArr = '' + arr4[i];
+        if (strArr.indexOf('0') !== -1) {
+            arr4[i] = strArr.replaceAll('0', 'zero');
+        }
+    }
+}
+changeZero(arr4);
+console.log(arr4);
