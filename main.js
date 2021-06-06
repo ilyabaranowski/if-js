@@ -94,3 +94,32 @@ const changeZero = (arr4) => {
 }
 changeZero(arr4);
 console.log(arr4);
+
+//4--1
+//Напишите функцию sum, которая возвращает сумму чисел следующим образом:
+//console.log(sum(5)(2)); // 7
+function sum(x) {
+    return function (y) {
+        return x + y;
+    }
+}
+console.log(sum(5)(2));
+
+//4--2
+//Покрасьте абзацы по клику (событие click)
+const colors = ['magenta', 'cyan', 'firebrick', 'springgreen', 'skyblue'];
+const pColor = document.querySelectorAll('p');
+const changeColor = () => {
+    let i = 0;
+    return (e) => {
+        e.target.style.color = colors[i];
+        i++;
+        if (i => colors.length) {
+            i = o;
+        }
+    }
+}
+pColor.forEach((item) => {
+    const painter = changeColor();
+    item.addEventListener('click', painter);
+})
