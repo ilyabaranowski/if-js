@@ -114,8 +114,8 @@ const changeColor = () => {
     return (e) => {
         e.target.style.color = colors[i];
         i++;
-        if (i => colors.length) {
-            i = o;
+        if (i >= colors.length) {
+            i = 0;
         }
     }
 }
@@ -123,3 +123,68 @@ pColor.forEach((item) => {
     const painter = changeColor();
     item.addEventListener('click', painter);
 })
+
+//5--1
+// Преобразование формата даты:
+// в переменной date лежит дата в формате '2020-11-26';
+// преобразуйте эту дату в формат '26.11.2020';
+// функция должна быть универсальной, т.е. принимать любую дату и приводить ее к поставленному в задании формату.
+const date = '2020-11-26';
+const dateArray = date.split("-");
+const newDate = dateArray[2] + '.' + dateArray[1] + '.' + dateArray[0];
+console.log(newDate);
+
+//Поиск объектов размещения
+const data = [
+    {
+        country: 'Russia',
+        city: 'Saint Petersburg',
+        hotel: 'Hotel Leopold',
+    },
+    {
+        country: 'Spain',
+        city: 'Santa Cruz de Tenerife',
+        hotel: 'Apartment Sunshine',
+    },
+    {
+        country: 'Slowakia',
+        city: 'Vysokie Tatry',
+        hotel: 'Villa Kunerad',
+    },
+    {
+        country: 'Germany',
+        city: 'Berlin',
+        hotel: 'Hostel Friendship',
+    },
+    {
+        country: 'Indonesia',
+        city: 'Bali',
+        hotel: 'Ubud Bali Resort&SPA',
+    },
+    {
+        country: 'Netherlands',
+        city: 'Rotterdam',
+        hotel: 'King Kong Hostel',
+    },
+    {
+        country: 'Marocco',
+        city: 'Ourika',
+        hotel: 'Rokoko Hotel',
+    },
+    {
+        country: 'Germany',
+        city: 'Berlin',
+        hotel: 'Hotel Rehberge Berlin Mitte',
+    },
+];
+const dataSearch = (str) => {
+    const resultSearch = [];
+    for (let i = 0; i < data.length; i++) {
+        const currentStr = `${data[i].country}, ${data[i].city}, ${data[i].hotel}`;
+        if (currentStr.includes(str)) {
+            resultSearch.push(currentStr);
+        }
+    }
+    return resultSearch;
+};
+console.log(dataSearch('Rotterdam'))
