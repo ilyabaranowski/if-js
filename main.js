@@ -535,3 +535,72 @@ const hotels = [
       return selectedCountry;
   }
   console.log(countryToCity(hotels2));
+
+  //7--1
+  const obj1 = {
+    a: 'a',
+    b: {
+      a: 'a',
+      b: 'b',
+      c: {
+        a: 1,
+      },
+    },
+  };
+  const obj2 = {
+    b: {
+      c: {
+        a: 1,
+      },
+      b: 'b',
+      a: 'a',
+    },
+    a: 'a',
+  };
+  const obj3 = {
+    a: {
+      c: {
+        a: 'a',
+      },
+      b: 'b',
+      a: 'a',
+    },
+    b: 'b',
+  };
+  
+  const deepEqual = (obj1, obj2) => {
+    if (obj1 === obj2) return true;
+    if (
+        typeof obj1 !== 'object' ||
+        typeof obj2 !== 'object' ||
+        obj1 == null ||
+        obj2 == null
+    ) {
+        return false;
+    }
+    const keysA = Object.keys(obj1);
+    const keysB = Object.keys(obj2);
+    if (keysA.length !== keysB.length) {
+        return false;
+    }
+    let result = true;
+    keysA.forEach((key) => {
+        if (!keysB.includes(key)) {
+            result = false;
+        }
+        if (
+            typeof obj1[key] === 'function' ||
+            typeof obj2[key] === 'function'
+        ) {
+            if (obj1[key].toString() !== obj2[key].toString()) {
+                result = false;
+            }
+        }
+        if (!deepEqual(obj1[key], obj2[key])) {
+            result = false;
+        }
+    });
+    return result;
+}
+  console.log(deepEqual(obj1, obj2)); // true
+  console.log(deepEqual(obj1, obj3)); // false
