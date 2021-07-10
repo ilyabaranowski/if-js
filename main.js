@@ -107,22 +107,22 @@ console.log(sum(5)(2));
 
 //4--2
 //Покрасьте абзацы по клику (событие click)
-const colors = ['magenta', 'cyan', 'firebrick', 'springgreen', 'skyblue'];
-const pColor = document.querySelectorAll('p');
-const changeColor = () => {
-    let i = 0;
-    return (e) => {
-        e.target.style.color = colors[i];
-        i++;
-        if (i >= colors.length) {
-            i = 0;
-        }
-    }
-}
-pColor.forEach((item) => {
-    const painter = changeColor();
-    item.addEventListener('click', painter);
-})
+// const colors = ['magenta', 'cyan', 'firebrick', 'springgreen', 'skyblue'];
+// const pColor = document.querySelectorAll('p');
+// const changeColor = () => {
+//     let i = 0;
+//     return (e) => {
+//         e.target.style.color = colors[i];
+//         i++;
+//         if (i >= colors.length) {
+//             i = 0;
+//         }
+//     }
+// }
+// pColor.forEach((item) => {
+//     const painter = changeColor();
+//     item.addEventListener('click', painter);
+// })
 
 //5--1
 // Преобразование формата даты:
@@ -672,3 +672,43 @@ const hotels = [
   }
   const students = new Students(studentsData);
   console.log(students.getInfo());
+  //9--1
+let colors = {
+    data: ["magenta", "cyan", "firebrick", "springgreen", "skyblue"],
+  };
+
+colors[Symbol.iterator] = function() {
+  let index = 0;
+  let data = this.data;
+  let last = this.data.length;
+  return {
+    next () {
+      if (index < last) {
+        return {
+          done: false,
+          value: data[index++],
+        };
+      }
+      else {
+        index = 0;
+        return {
+          done: true,
+          value: data[index++],
+        }
+      }
+    },
+  };
+};
+
+const changeColor = (item) => {
+  return (e) => {
+    e.target.style.color = item.next().value;
+  };
+};
+
+const pColor = document.querySelectorAll('p');
+
+pColor.forEach((item) => {
+  let i = colors[Symbol.iterator]();
+  item.addEventListener ('click', changeColor(i));
+});
