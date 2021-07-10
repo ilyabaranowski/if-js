@@ -11,8 +11,8 @@
     "husky": "^7.0.1"
   },
   "scripts": {
-    "lint": "eslint main.js"
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint main.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
   },
   "repository": {
