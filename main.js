@@ -83,7 +83,7 @@ console.log(max1(1, 13));
 
 // 3--3
 const arr4 = [10, 34, 40, 77, 99, 20, 66, 68, 8, 0];
-const changeZero = (arr4) => {
+const changeZero = () => {
   for (i = 0; i < arr4.length; i += 1) {
     const strArr = `${arr4[i]}`;
     if (strArr.indexOf('0') !== -1) {
@@ -179,7 +179,7 @@ const data = [
 ];
 const dataSearch = (str) => {
   const resultSearch = [];
-  for (let i = 0; i < data.length; i++) {
+  for (let i = 0; i < data.length; i += 1) {
     const currentStr = `${data[i].country}, ${data[i].city}, ${data[i].hotel}`;
     if (currentStr.includes(str)) {
       resultSearch.push(currentStr);
@@ -665,7 +665,7 @@ class Students {
       )
       .map(
         (student) => `${new User(student).fullName} - ${new Student(student).courseName
-          } - ${new Student(student).course}`,
+        } - ${new Student(student).course}`,
       );
   }
 }

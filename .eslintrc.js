@@ -11,5 +11,10 @@ module.exports = {
     ecmaVersion: 12,
   },
   rules: {
+    "max-classes-per-file": ["error", 4],
+    "no-shadow": "off",
+    "no-restricted-syntax": "off",
+    "no-undef": "off",
+    "no-return-assign": "off",
   },
 };
