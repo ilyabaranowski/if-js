@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+	font-family: Roboto;
+  }
+.loves {
+		background: #EAF0F9;
+		h2 {
+			padding-top: 120px;
+			font-size: 40px;
+			font-weight: 500;
+			margin-bottom: 88px;
+			position: relative;
+			text-align: center;
+		}
+		.loves__items {
+			display: flex;
+			justify-content: space-around;
+			font-size: 24px;
+			font-weight: 400;
+			color: #3077C6;
+			padding-left: 104px;
+			padding-right: 104px;
+		}
+	}
+	.loves__item {
+		img {
+			width: 296px;
+			height: 296px;
+			display: flex;
+			margin: 0px auto;
+			padding-bottom: 24px;
+		}
+		&:last-child {
+			position: relative;
+			&::after {
+				position: absolute;
+				content: url(./img/arrow.svg);
+				top: 105px;
+				left: 263px;
+			}
+		}
+	}
+	.loves__item_geotag {
+		color: #BFBFBF;
+		padding-top: 21px;
+		padding-bottom: 121px;
+		padding-left: 10px;
+	}
+	.loves__item_placename {
+		padding-left: 10px;
+	}
+	.loves__item_arrow {
+		display: none;
+	}
