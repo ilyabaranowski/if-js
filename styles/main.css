@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v27-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/roboto-v27-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v27-latin-regular.woff2") format("woff2"), url("../fonts/roboto-v27-latin-regular.woff") format("woff"), url("../fonts/roboto-v27-latin-regular.ttf") format("truetype"), url("../fonts/roboto-v27-latin-regular.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+.loves {
+  background: #EAF0F9;
+}
+.loves h2 {
+  padding-top: 120px;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 88px;
+  position: relative;
+  text-align: center;
+}
+.loves .loves__items {
+  display: flex;
+  justify-content: space-around;
+  font-size: 24px;
+  font-weight: 400;
+  color: #3077C6;
+  padding-left: 104px;
+  padding-right: 104px;
+}
+
+.loves__item_geotag {
+  color: #BFBFBF;
+  padding-top: 21px;
+  padding-bottom: 121px;
+  padding-left: 10px;
+}
+
+.loves__item_placename {
+  padding-left: 10px;
+}
+
+.loves__item_arrow {
+  display: none;
+}
+
+/*# sourceMappingURL=main.css.map */
