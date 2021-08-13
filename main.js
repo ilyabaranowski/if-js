@@ -1,6 +1,6 @@
 const dataLoves = async () => {
   const dataMain = await fetch('https://fe-student-api.herokuapp.com/api/hotels/popular')
-    .then(response => response.json())
+    .then((response) => response.json())
     .then((data) => data);
 
   const wrapper = document.querySelector('body');
@@ -36,10 +36,8 @@ const dataLoves = async () => {
     a.append(pHostel);
 
     const pCityCountry = document.createElement('p');
-    pCityCountry.innerHTML = `${item.city}`
-      + ', '
-      + `${item.country}`;
+    pCityCountry.innerHTML = `${item.city}, ${item.country}`;
     pHostel.after(pCityCountry);
   });
-}
-dataLoves()
+};
+dataLoves();
