@@ -1,7 +1,19 @@
+async function hotelsData(url) {
+  const sessionHotels = sessionStorage.getItem('hotels');
+  if (!sessionHotels) {
+    const hotels = await fetch('https://fe-student-api.herokuapp.com/api/hotels/popular')
+      .then(response => response.json())
+      .then(hotels => hotels);
+    sessionStorage.setItem('hotels', JSON.stringify(hotels));
+    return hotels
+  } else {
+    const hotels = JSON.parse(sessionHotels);
+    return hotels;
+  }
+}
+
 const dataLoves = async () => {
-  const dataMain = await fetch('https://fe-student-api.herokuapp.com/api/hotels/popular')
-    .then((response) => response.json())
-    .then((data) => data);
+  const dataMain = await hotelsData('https://fe-student-api.herokuapp.com/api/hotels/popular');
 
   const wrapper = document.querySelector('body');
 
