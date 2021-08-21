@@ -1,15 +1,16 @@
 async function hotelsData(url) {
   const sessionHotels = sessionStorage.getItem('hotels');
+  let hotels;
+
   if (!sessionHotels) {
-    const hotels = await fetch('https://fe-student-api.herokuapp.com/api/hotels/popular')
-      .then(response => response.json())
+    hotels = await fetch(url)
+      .then((response) => response.json())
       .then(hotels => hotels);
     sessionStorage.setItem('hotels', JSON.stringify(hotels));
-    return hotels
   } else {
-    const hotels = JSON.parse(sessionHotels);
-    return hotels;
+    hotels = JSON.parse(sessionHotels);
   }
+  return hotels;
 }
 
 const dataLoves = async () => {
