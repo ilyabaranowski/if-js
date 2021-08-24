@@ -8,7 +8,7 @@ formEl.addEventListener('submit', async (event) => {
     body: new FormData(formEl),
   };
 
-  const resp = await fetch('https://fe-student-api.herokuapp.com/api/file.', fetchInfo)
+  const resp = await fetch('https://fe-student-api.herokuapp.com/api/file', fetchInfo)
     .then((response) => {
       if (!response.ok) {
         throw new Error(response.statusText);
