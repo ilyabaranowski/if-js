@@ -5,15 +5,122 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>Triphouse-project-js</title>
 </head>
 
 <body>
-    <form class="formCSS" id="formJS">
-        <input type="file" name="file">
-        <input type="submit" name="send">
-    </form>
+    <div class="wrapper">
+        <header>
+            <div class="header">
+                <div class="header__top">
+                    <a href=""><img src="./img/header_triphouse_logo.svg" alt="triphouse-logo"></a>
+                    <div class="header__navigation">
+                        <nav>
+                            <ul>
+                                <li><a href="#">Stays</a></li>
+                                <li><a href="#">Attractions</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__settings">
+                        <span class="header__night_icons"><img src="./img/header_Night.svg"
+                                alt="switch-dark-mode"></span>
+                        <span class="header__account_icons"><img src="./img/header_AccountCircle.svg"
+                                alt="account"></span>
+                        <span class="header__menu_icons"><img src="./img/header_mobile_menu.svg" alt="menu"></span>
+                    </div>
+                </div>
+                <div class="header__title">
+                    <h2>Discover stays <br /> live, work or just relax</h2>
+                </div>
+                <form action="" class="desctop">
+                    <div class="header__destination">
+                        <p><label for="search">Your destination or hotel name</label></p>
+                        <input id="search" type="text" name="search" placeholder="New York" />
+                    </div>
+                    <div class="header__check_in">
+                        <p>
+                            <label for="in">Check-in -</label>
+                        </p>
+                        <input type="date" id="in">
+                    </div>
+                    <div class="header__check_out">
+                        <p>
+                            <label for="out">Check-out</label>
+                        </p>
+                        <input type="date" id="out">
+                    </div>
+                    <div class="header__inputs">
+                        <input id="header__inputs_room" type="text" placeholder="2 Adults — 0 Children — 1 Room"
+                            name="qtpeople" />
+                    </div>
+                    <button>Search</button>
+                </form>
+                <div class="header__people_filter">
+                    <div class="header__people_adults">
+                        <span>
+                            <label for="adults">Adults</label>
+                        </span>
+                        <div class="header__people_count">
+                            <button class="minus" value="-">-</button>
+                            <input type="text" id="adults" value="2" min="0" max="30" />
+                            <button class="plus" value="+">+</button>
+                        </div>
+                    </div>
+                    <div class="header__people_children">
+                        <span>
+                            <label for="children">Children</label>
+                        </span>
+                        <div class="header__people_count">
+                            <button class="minus" value="-">-</button>
+                            <input type="text" id="children" value="0" min="0" max="10" />
+                            <button class="plus" value="+">+</button>
+                        </div>
+                    </div>
+                    <div class="header__people_rooms">
+                        <span>
+                            <label for="rooms">Rooms</label>
+                        </span>
+                        <div class="header__people_count">
+                            <button class="minus" value="-">-</button>
+                            <input type="text" id="rooms" value="1" min="0" max="30" />
+                            <button class="plus" value="+">+</button>
+                        </div>
+                    </div>
+                    <div class="header__people_age">
+                        <span>
+                            <label for="age">What is the age of the child you’re travelling with?</label>
+                        </span>
+                        <select id="age">
+                            <option>0 years old</option>
+                            <option>1 years old</option>
+                            <option>2 years old</option>
+                            <option>3 years old</option>
+                            <option>4 years old</option>
+                            <option>5 years old</option>
+                            <option>6 years old</option>
+                            <option>7 years old</option>
+                            <option>8 years old</option>
+                            <option>9 years old</option>
+                            <option>10 years old</option>
+                            <option>11 years old</option>
+                            <option>12 years old</option>
+                            <option>13 years old</option>
+                            <option>14 years old</option>
+                            <option>15 years old</option>
+                            <option>16 years old</option>
+                            <option>17 years old</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="header__appstore-links">
+                    <a href="#"><img src="./img/header_Gplay.svg" alt="playmarket"></a>
+                    <a href="#"><img src="./img/header_Apple.svg" alt="appstore"></a>
+                </div>
+            </div>
+        </header>
+    </div>
     <script src="./main.js"></script>
 </body>
 

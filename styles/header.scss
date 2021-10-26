@@ -1,0 +1,173 @@
+.header {
+	height: 100vh;
+	width: 100vw;
+	background-image: url('../img/header_mainBackground.svg');
+	background-size: cover;
+}
+.header__navigation {
+	margin-left: 610px;
+	display: flex;
+	justify-content: center;
+	ul {
+		display: flex;
+		list-style-type: none;
+		li {
+			a {
+				text-decoration: none;
+				color: #ffffff;
+				padding-bottom: 12px;
+				font-size: 24px;
+				font-weight: 400;
+			}
+		}
+	}
+	li {
+		margin-left: 24px;
+		&:hover {
+			a {
+				border-bottom: 3px solid #F5BD41;
+			}
+		}
+	}
+}
+.header__settings {
+	margin-left: 48px;
+	display: flex;
+	align-items: center;
+}
+.header__night_icons {
+	color: #ffffff;
+	font-size: 30px;
+	&:hover {
+		color: #F5BD41;
+		cursor: pointer;
+	}
+}
+.header__account_icons {
+	margin-left: 22px;
+	color: #ffffff;
+	font-size: 40px;
+	&:hover {
+		color: #F5BD41;
+		cursor: pointer;
+	}
+}
+.header__menu_icons {
+	display: none;
+	color: #ffffff;
+	font-size: 24px;
+	&:hover {
+		color: #F5BD41;
+		cursor: pointer;
+	}
+}
+.header__input_adults {
+	border-left: none;
+	padding-left: 30px;
+}
+.header__input_rooms {
+	border-left: none;
+	border-radius: 0px 8px 8px 0px;
+  }
+  .header__people input::placeholder {
+	color: #383838;
+  }
+  .header__people_filter {
+	display: none;
+	background-color: #ffffff;
+	width: 259px;
+	height: auto;
+	position: absolute;
+	right: 296px;
+	border-radius: 8px;
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 16px;
+	color: #333333;
+	padding: 22px;
+  }
+  .visible_filter {
+	display: block;
+  }
+  .header__people_filter div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  .header__people_filter div:nth-child(4) {
+	display: none;
+  }
+  
+  .header__people_count {
+	padding-bottom: 12px;
+  }
+  
+  .header__people_filter span {
+	padding-bottom: 12px;
+  }
+  
+  .header__people_filter button {
+	width: 30px;
+	height: 30px;
+	margin-top: 0px;
+	border: 1px solid #3077c6;
+	color: #3077c6;
+	background-color: #ffffff;
+  }
+  
+  .header__people_children button.minus {
+	border: 1px solid #cecece;
+	color: #cecece;
+  }
+  
+  .header__people_rooms button.minus {
+	border: 1px solid #cecece;
+	color: #cecece;
+  }
+  
+  .header__people_filter input {
+	width: 48px;
+	height: 30px;
+	margin-top: 0px;
+	border: none;
+	text-align: center;
+  }
+  /* .header__people_count button.minus {
+	background-color: #f5bd41;
+  } */
+  .header__people_age {
+	flex-direction: column;
+  }
+  .header__people_age span {
+	padding-top: 16px;
+	font-size: 12px;
+  }
+  .header__people_age select {
+	margin-top: 12px;
+	display: block;
+	height: 30px;
+	width: 99px;
+	font-size: 12px;
+	border: 1px solid #3077c6;
+  }
+.header__appstore-links {
+	width: 265px;
+	display: flex;
+	justify-content: space-between;
+	margin: 120px auto 0px;
+}
+@media (min-width: 850px) {
+	.header__top {
+		display: flex;
+		justify-content: space-around;
+		padding: 57px 104px 0 104px;
+	}
+	.header__title {
+		font-size: 50px;
+		font-weight: 500;
+		color: #ffffff;
+		margin-top: 180px;
+		margin-bottom: 100px;
+		padding-left: 104px;
+	}
+}

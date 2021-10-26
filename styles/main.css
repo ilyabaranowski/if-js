@@ -1,0 +1,376 @@
+/* roboto-100 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/roboto-v27-latin-100.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/roboto-v27-latin-100.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v27-latin-100.woff2") format("woff2"), url("../fonts/roboto-v27-latin-100.woff") format("woff"), url("../fonts/roboto-v27-latin-100.ttf") format("truetype"), url("../fonts/roboto-v27-latin-100.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+/* roboto-100italic - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 100;
+  src: url("../fonts/roboto-v27-latin-100italic.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/roboto-v27-latin-100italic.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v27-latin-100italic.woff2") format("woff2"), url("../fonts/roboto-v27-latin-100italic.woff") format("woff"), url("../fonts/roboto-v27-latin-100italic.ttf") format("truetype"), url("../fonts/roboto-v27-latin-100italic.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+/* roboto-300 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/roboto-v27-latin-300.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/roboto-v27-latin-300.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v27-latin-300.woff2") format("woff2"), url("../fonts/roboto-v27-latin-300.woff") format("woff"), url("../fonts/roboto-v27-latin-300.ttf") format("truetype"), url("../fonts/roboto-v27-latin-300.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+/* roboto-300italic - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 300;
+  src: url("../fonts/roboto-v27-latin-300italic.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/roboto-v27-latin-300italic.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v27-latin-300italic.woff2") format("woff2"), url("../fonts/roboto-v27-latin-300italic.woff") format("woff"), url("../fonts/roboto-v27-latin-300italic.ttf") format("truetype"), url("../fonts/roboto-v27-latin-300italic.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v27-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/roboto-v27-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v27-latin-regular.woff2") format("woff2"), url("../fonts/roboto-v27-latin-regular.woff") format("woff"), url("../fonts/roboto-v27-latin-regular.ttf") format("truetype"), url("../fonts/roboto-v27-latin-regular.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+/* roboto-italic - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/roboto-v27-latin-italic.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/roboto-v27-latin-italic.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v27-latin-italic.woff2") format("woff2"), url("../fonts/roboto-v27-latin-italic.woff") format("woff"), url("../fonts/roboto-v27-latin-italic.ttf") format("truetype"), url("../fonts/roboto-v27-latin-italic.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+/* roboto-500 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v27-latin-500.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/roboto-v27-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v27-latin-500.woff2") format("woff2"), url("../fonts/roboto-v27-latin-500.woff") format("woff"), url("../fonts/roboto-v27-latin-500.ttf") format("truetype"), url("../fonts/roboto-v27-latin-500.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+/* roboto-500italic - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/roboto-v27-latin-500italic.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/roboto-v27-latin-500italic.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v27-latin-500italic.woff2") format("woff2"), url("../fonts/roboto-v27-latin-500italic.woff") format("woff"), url("../fonts/roboto-v27-latin-500italic.ttf") format("truetype"), url("../fonts/roboto-v27-latin-500italic.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v27-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/roboto-v27-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v27-latin-700.woff2") format("woff2"), url("../fonts/roboto-v27-latin-700.woff") format("woff"), url("../fonts/roboto-v27-latin-700.ttf") format("truetype"), url("../fonts/roboto-v27-latin-700.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+/* roboto-700italic - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/roboto-v27-latin-700italic.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/roboto-v27-latin-700italic.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v27-latin-700italic.woff2") format("woff2"), url("../fonts/roboto-v27-latin-700italic.woff") format("woff"), url("../fonts/roboto-v27-latin-700italic.ttf") format("truetype"), url("../fonts/roboto-v27-latin-700italic.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+/* roboto-900 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/roboto-v27-latin-900.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/roboto-v27-latin-900.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v27-latin-900.woff2") format("woff2"), url("../fonts/roboto-v27-latin-900.woff") format("woff"), url("../fonts/roboto-v27-latin-900.ttf") format("truetype"), url("../fonts/roboto-v27-latin-900.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+/* roboto-900italic - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 900;
+  src: url("../fonts/roboto-v27-latin-900italic.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/roboto-v27-latin-900italic.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v27-latin-900italic.woff2") format("woff2"), url("../fonts/roboto-v27-latin-900italic.woff") format("woff"), url("../fonts/roboto-v27-latin-900italic.ttf") format("truetype"), url("../fonts/roboto-v27-latin-900italic.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+form {
+  display: flex;
+  padding-left: 104px;
+  padding-right: 104px;
+  font-size: 18px;
+}
+form p {
+  color: #fff;
+  margin-bottom: 30px;
+}
+form input {
+  width: 100%;
+  outline: none;
+  background: #FFFFFF;
+  height: 64px;
+  padding-left: 24px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  border: 3px solid #f3f3f4;
+  border-left: none;
+  border-right: none;
+}
+form .header__destination {
+  flex-grow: 5;
+}
+form .header__check_in {
+  text-align: right;
+  flex-grow: 2;
+}
+form .header__check_out {
+  flex-grow: 2;
+}
+form .header__inputs {
+  flex-grow: 4;
+  padding-top: 52px;
+}
+form button {
+  flex-grow: 6;
+  height: 68px;
+  background-color: #3077C6;
+  color: #FFFFFF;
+  border-radius: 8px;
+  margin-top: 51px;
+}
+
+@media (min-width: 850px) {
+  form.mobile {
+    display: none;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  margin: 0px auto;
+}
+
+.header {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../img/header_mainBackground.svg");
+  background-size: cover;
+}
+
+.header__navigation {
+  margin-left: 610px;
+  display: flex;
+  justify-content: center;
+}
+.header__navigation ul {
+  display: flex;
+  list-style-type: none;
+}
+.header__navigation ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding-bottom: 12px;
+  font-size: 24px;
+  font-weight: 400;
+}
+.header__navigation li {
+  margin-left: 24px;
+}
+.header__navigation li:hover a {
+  border-bottom: 3px solid #F5BD41;
+}
+
+.header__settings {
+  margin-left: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.header__night_icons {
+  color: #ffffff;
+  font-size: 30px;
+}
+.header__night_icons:hover {
+  color: #F5BD41;
+  cursor: pointer;
+}
+
+.header__account_icons {
+  margin-left: 22px;
+  color: #ffffff;
+  font-size: 40px;
+}
+.header__account_icons:hover {
+  color: #F5BD41;
+  cursor: pointer;
+}
+
+.header__menu_icons {
+  display: none;
+  color: #ffffff;
+  font-size: 24px;
+}
+.header__menu_icons:hover {
+  color: #F5BD41;
+  cursor: pointer;
+}
+
+.header__input_adults {
+  border-left: none;
+  padding-left: 30px;
+}
+
+.header__input_rooms {
+  border-left: none;
+  border-radius: 0px 8px 8px 0px;
+}
+
+.header__people input::placeholder {
+  color: #383838;
+}
+
+.header__people_filter {
+  display: none;
+  background-color: #ffffff;
+  width: 259px;
+  height: auto;
+  position: absolute;
+  right: 296px;
+  border-radius: 8px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  color: #333333;
+  padding: 22px;
+}
+
+.visible_filter {
+  display: block;
+}
+
+.header__people_filter div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__people_filter div:nth-child(4) {
+  display: none;
+}
+
+.header__people_count {
+  padding-bottom: 12px;
+}
+
+.header__people_filter span {
+  padding-bottom: 12px;
+}
+
+.header__people_filter button {
+  width: 30px;
+  height: 30px;
+  margin-top: 0px;
+  border: 1px solid #3077c6;
+  color: #3077c6;
+  background-color: #ffffff;
+}
+
+.header__people_children button.minus {
+  border: 1px solid #cecece;
+  color: #cecece;
+}
+
+.header__people_rooms button.minus {
+  border: 1px solid #cecece;
+  color: #cecece;
+}
+
+.header__people_filter input {
+  width: 48px;
+  height: 30px;
+  margin-top: 0px;
+  border: none;
+  text-align: center;
+}
+
+/* .header__people_count button.minus {
+background-color: #f5bd41;
+ } */
+.header__people_age {
+  flex-direction: column;
+}
+
+.header__people_age span {
+  padding-top: 16px;
+  font-size: 12px;
+}
+
+.header__people_age select {
+  margin-top: 12px;
+  display: block;
+  height: 30px;
+  width: 99px;
+  font-size: 12px;
+  border: 1px solid #3077c6;
+}
+
+.header__appstore-links {
+  width: 265px;
+  display: flex;
+  justify-content: space-between;
+  margin: 120px auto 0px;
+}
+
+@media (min-width: 850px) {
+  .header__top {
+    display: flex;
+    justify-content: space-around;
+    padding: 57px 104px 0 104px;
+  }
+
+  .header__title {
+    font-size: 50px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 180px;
+    margin-bottom: 100px;
+    padding-left: 104px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
