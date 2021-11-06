@@ -154,11 +154,12 @@ form .header__check_out {
   flex-grow: 2;
 }
 form .header__inputs {
-  flex-grow: 4;
+  flex-grow: 3;
   padding-top: 52px;
+  display: flex;
 }
 form button {
-  flex-grow: 6;
+  flex-grow: 1;
   height: 68px;
   background-color: #3077C6;
   color: #FFFFFF;

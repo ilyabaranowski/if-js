@@ -34,11 +34,12 @@ form {
 		flex-grow: 2;
 	}
 	.header__inputs {
-		flex-grow: 4;
+		flex-grow: 3;
 		padding-top: 52px;
+		display: flex;
 	}
 	button {
-		flex-grow: 6;
+		flex-grow: 1;
 		height: 68px;
         background-color: #3077C6;
         color: #FFFFFF;
