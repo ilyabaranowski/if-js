@@ -1,0 +1,54 @@
+form {
+	display: flex;
+	padding-left: 104px;
+	padding-right: 104px;
+	font-size: 18px;
+	p {
+		color: #fff;
+		margin-bottom: 30px;
+	}
+	input {
+		width: 100%;
+		outline: none;
+		// border-radius: 8px;
+		background: #FFFFFF;
+		height: 64px;
+    	padding-left: 24px;
+    	font-family: Roboto;
+    	font-style: normal;
+    	font-weight: normal;
+    	font-size: 18px;
+    	line-height: 21px;
+    	border: 3px solid #f3f3f4;
+    	border-left: none;
+    	border-right: none;
+	}
+	.header__destination {
+		flex-grow: 5;
+	}
+	.header__check_in {
+		text-align: right;
+		flex-grow: 2;
+	}
+	.header__check_out {
+		flex-grow: 2;
+	}
+	.header__inputs {
+		flex-grow: 3;
+		padding-top: 52px;
+		display: flex;
+	}
+	button {
+		flex-grow: 1;
+		height: 68px;
+        background-color: #3077C6;
+        color: #FFFFFF;
+        border-radius: 8px;
+        margin-top: 51px;
+	}
+}
+@media (min-width: 850px) {
+	form.mobile {
+		display: none;
+	}
+}

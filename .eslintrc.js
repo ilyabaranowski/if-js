@@ -17,5 +17,6 @@ module.exports = {
     "no-undef": "off",
     "no-return-assign": "off",
     "no-console": "off",
+    "no-useless-concat": "off",
   },
 };
