@@ -18,5 +18,6 @@ module.exports = {
     "no-return-assign": "off",
     "no-console": "off",
     "no-useless-concat": "off",
+    "no-plusplus": "off",
   },
 };
